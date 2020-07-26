@@ -1,0 +1,25 @@
+.text{
+    font-family: 'Hind', sans-serif;
+}
+body{
+    background-image: linear-gradient(to right,#ff9900,#bfff00);
+}
+
+.top img{
+    float:right;
+    margin-top: -100px;
+    width: 50%;
+    margin-left: 10px;
+}
+#name{
+    font-size: 50px;
+    margin-left: 15%;
+    font-family: 'Anton', sans-serif;
+}
+.subtitle{
+    font-family: 'Playfair Display', serif;
+}
+.portfolio img{
+    display: block;
+    width: 400px;
+}
