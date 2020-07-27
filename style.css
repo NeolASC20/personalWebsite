@@ -1,5 +1,6 @@
 .text{
     font-family: 'Hind', sans-serif;
+    font-size: 18px;
 }
 body{
     background-image: linear-gradient(to right,#ff9900,#bfff00);
@@ -22,4 +23,15 @@ body{
 .portfolio img{
     display: block;
     width: 400px;
+}
+.skills{
+    float: right;
+}
+.superSubtitle{
+    color: black;
+    opacity: 60%;
+}
+#topSkills{
+    font-style: italic;
+    margin-right: 600px;
 }
