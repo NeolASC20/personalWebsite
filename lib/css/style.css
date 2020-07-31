@@ -1,0 +1,68 @@
+.text{
+    font-family: 'Hind', sans-serif;
+    font-size: 18px;
+}
+body{
+    background-color: #ff9900;
+}
+
+.top img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: solid;
+    border-width: 10px;
+}
+#name{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+.subtitle{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+.portfolio{
+    display:flex;
+    justify-items: flex-start;
+    justify-content: space-between;
+}
+.portfolio img{
+    display: flex;
+    width: 400px;
+}
+.skills{
+    float: right;
+}
+.superSubtitle{
+    color: black;
+    opacity: 60%;
+}
+#topSkills{
+    font-style: italic;
+    margin-right: 600px;
+}
+
+#navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    overflow: hidden; /* prevents item form intersecting other items*/
+    background-color: #1010e6;
+    font-family: fantasy;
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none; /*takes off the underline theme from the links*/
+}
+li a:hover{
+    background-color: #0300ab;
+}
